@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ttb",
+	"version": "${version}",
+
+	"name": "The Tempest's Box",
+	"description": "Adds countless new features that are not normally in Minecraft, providing you with many new mechanics, items, blocks, and more!",
+	"authors": ["DarkMagicSauce"],
+	"contact": {
+		"homepage": "http://thetempestsbox.com/",
+		"sources": "https://github.com/DarkMagicSauce/ttb-mod"
+	},
+
+	"license": "GPL-3.0",
+	"icon": "assets/ttb/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.darkmagicsauce.ttb.TTB"]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.7.4",
+		"fabric": "*",
+		"minecraft": "1.16.x"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
