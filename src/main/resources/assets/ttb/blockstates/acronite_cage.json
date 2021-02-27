@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "ttb:block/acronite_cage" },
+		"facing=east": { "model": "ttb:block/acronite_cage", "y": 90 },
+		"facing=south": { "model": "ttb:block/acronite_cage", "y": 180 },
+		"facing=west": { "model": "ttb:block/acronite_cage", "y": 270 }
+	}
+}
