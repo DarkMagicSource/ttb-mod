@@ -1,0 +1,31 @@
+{
+	"variants": {
+		"facing=north,xp_level=0": { "model": "ttb:block/eckspei_locker" },
+		"facing=north,xp_level=1": { "model": "ttb:block/eckspei_locker_one" },
+		"facing=north,xp_level=2": { "model": "ttb:block/eckspei_locker_two" },
+		"facing=north,xp_level=3": { "model": "ttb:block/eckspei_locker_three" },
+		"facing=north,xp_level=4": { "model": "ttb:block/eckspei_locker_four" },
+		"facing=north,xp_level=5": { "model": "ttb:block/eckspei_locker_five" },
+
+		"facing=east,xp_level=0": { "model": "ttb:block/eckspei_locker", "y": 90 },
+		"facing=east,xp_level=1": { "model": "ttb:block/eckspei_locker_one", "y": 90 },
+		"facing=east,xp_level=2": { "model": "ttb:block/eckspei_locker_two", "y": 90 },
+		"facing=east,xp_level=3": { "model": "ttb:block/eckspei_locker_three", "y": 90 },
+		"facing=east,xp_level=4": { "model": "ttb:block/eckspei_locker_four", "y": 90 },
+		"facing=east,xp_level=5": { "model": "ttb:block/eckspei_locker_five", "y": 90 },
+
+		"facing=south,xp_level=0": { "model": "ttb:block/eckspei_locker", "y": 180 },
+		"facing=south,xp_level=1": { "model": "ttb:block/eckspei_locker_one", "y": 180 },
+		"facing=south,xp_level=2": { "model": "ttb:block/eckspei_locker_two", "y": 180 },
+		"facing=south,xp_level=3": { "model": "ttb:block/eckspei_locker_three", "y": 180 },
+		"facing=south,xp_level=4": { "model": "ttb:block/eckspei_locker_four", "y": 180 },
+		"facing=south,xp_level=5": { "model": "ttb:block/eckspei_locker_five", "y": 180 },
+
+		"facing=west,xp_level=0": { "model": "ttb:block/eckspei_locker", "y": 270 },
+		"facing=west,xp_level=1": { "model": "ttb:block/eckspei_locker_one", "y": 270 },
+		"facing=west,xp_level=2": { "model": "ttb:block/eckspei_locker_two", "y": 270 },
+		"facing=west,xp_level=3": { "model": "ttb:block/eckspei_locker_three", "y": 270 },
+		"facing=west,xp_level=4": { "model": "ttb:block/eckspei_locker_four", "y": 270 },
+		"facing=west,xp_level=5": { "model": "ttb:block/eckspei_locker_five", "y": 270 }
+	}
+}

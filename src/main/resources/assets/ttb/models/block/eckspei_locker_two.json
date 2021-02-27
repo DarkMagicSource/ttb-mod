@@ -2,7 +2,7 @@
 	"parent": "ttb:block/cube_orientable",
 	"textures": {
 		"vertical": "ttb:block/eckspei_locker_vertical",
-		"front": "ttb:block/eckspei_locker_front",
+		"front": "ttb:block/eckspei_locker_front_two",
 		"back": "ttb:block/eckspei_locker_back",
 		"side": "ttb:block/eckspei_locker_side"
 	}
