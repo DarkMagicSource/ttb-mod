@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"power=0": { "model": "ttb:block/tempite_stone" },
+		"power=1": { "model": "ttb:block/tempite_stone_powered" },
+		"power=2": { "model": "ttb:block/tempite_stone_powered_full" }
+	}
+}
