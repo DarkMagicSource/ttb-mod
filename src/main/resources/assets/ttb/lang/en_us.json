@@ -1,0 +1,18 @@
+{
+	"itemGroup.ttb.general": "The Tempest's Box",
+	"block.ttb.acronite_cage": "Acronite Cage",
+	"block.ttb.alchemy_chamber": "Alchemy Chamber",
+	"block.ttb.amethyst_block": "Amethyst Block",
+	"block.ttb.amethyst_ore": "Amethyst Ore",
+	"block.ttb.amethyst_sunpad": "Amethyst Sunpad",
+	"block.ttb.breaker": "Breaker",
+	"block.ttb.eckspei_locker": "Eckspei Locker",
+	"block.ttb.growth_aura": "Growth Aura",
+	"block.ttb.ratch_putty": "Ratch Putty",
+	"block.ttb.tempest_crafter": "Tempest Crafter",
+	"block.ttb.tempite_insulator": "Tempite Insulator",
+	"block.ttb.tempite_stone": "Tempite Stone",
+	"block.ttb.tempite_wire": "Tempite Wire",
+	"block.ttb.vulcaanium_block": "Vulcaanium Block",
+	"block.ttb.vulcaanium_ore": "Vulcaanium Ore"
+}
