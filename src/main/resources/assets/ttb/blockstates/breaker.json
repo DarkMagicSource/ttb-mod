@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "ttb:block/breaker" },
+		"facing=east": { "model": "ttb:block/breaker", "y": 90 },
+		"facing=south": { "model": "ttb:block/breaker", "y": 180 },
+		"facing=west": { "model": "ttb:block/breaker", "y": 270 }
+	}
+}

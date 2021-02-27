@@ -1,3 +1,9 @@
 {
-	"parent": "block/cube_all"
+	"parent": "ttb:block/cube_orientable",
+	"textures": {
+		"vertical": "ttb:block/breaker_vertical",
+		"front": "ttb:block/breaker_front",
+		"back": "ttb:block/breaker_back",
+		"side": "ttb:block/breaker_side"
+	}
 }

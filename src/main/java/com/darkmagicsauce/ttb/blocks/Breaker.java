@@ -1,8 +1,6 @@
 package com.darkmagicsauce.ttb.blocks;
 
-import net.minecraft.block.Block;
-
-public class Breaker extends Block {
+public class Breaker extends Machine {
 	public Breaker(Settings settings) {
 		super(settings);
 	}
