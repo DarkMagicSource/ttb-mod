@@ -1,3 +1,6 @@
 {
-	"parent": "block/cube_all"
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "ttb:block/vulcaanium_block"
+	}
 }
