@@ -1,3 +1,9 @@
 {
-	"parent": "block/cube_all"
+	"parent": "ttb:block/cube_orientable",
+	"textures": {
+		"vertical": "ttb:block/growth_aura_vertical",
+		"front": "ttb:block/growth_aura_front",
+		"back": "ttb:block/growth_aura_back",
+		"side": "ttb:block/growth_aura_side"
+	}
 }

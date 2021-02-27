@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "ttb:block/growth_aura" },
+		"facing=east": { "model": "ttb:block/growth_aura", "y": 90 },
+		"facing=south": { "model": "ttb:block/growth_aura", "y": 180 },
+		"facing=west": { "model": "ttb:block/growth_aura", "y": 270 }
+	}
+}

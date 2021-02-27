@@ -1,8 +1,6 @@
 package com.darkmagicsauce.ttb.blocks;
 
-import net.minecraft.block.Block;
-
-public class GrowthAura extends Block {
+public class GrowthAura extends Machine {
 	public GrowthAura(Settings settings) {
 		super(settings);
 	}
