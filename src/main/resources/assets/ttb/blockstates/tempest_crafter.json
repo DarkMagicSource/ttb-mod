@@ -1,7 +1,5 @@
 {
 	"variants": {
-		"": {
-			"model": "ttb:block/tempest_crafter"
-		}
+		"": { "model": "ttb:block/tempest_crafter" }
 	}
 }

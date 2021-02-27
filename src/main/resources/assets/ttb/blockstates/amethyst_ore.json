@@ -1,7 +1,5 @@
 {
 	"variants": {
-		"": {
-			"model": "ttb:block/amethyst_ore"
-		}
+		"": { "model": "ttb:block/amethyst_ore" }
 	}
 }
