@@ -11,22 +11,36 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class RegisterBlocks {
-	public static final Block ACRONITE_CAGE = new AcroniteCage(FabricBlockSettings.of(Material.STONE));
-	public static final Block ALCHEMY_CHAMBER = new AlchemyChamber(FabricBlockSettings.of(Material.STONE));
-	public static final Block AMETHYST_BLOCK = new AmethystBlock(FabricBlockSettings.of(Material.STONE));
-	public static final Block AMETHYST_ORE = new AmethystOre(FabricBlockSettings.of(Material.STONE));
-	public static final Block AMETHYST_SUNPAD = new AmethystSunpad(FabricBlockSettings.of(Material.STONE));
-	public static final Block BREAKER = new Breaker(FabricBlockSettings.of(Material.STONE));
-	public static final Block ECKSPEI_LOCKER = new EckspeiLocker(FabricBlockSettings.of(Material.STONE));
-	public static final Block GROWTH_AURA = new GrowthAura(FabricBlockSettings.of(Material.STONE));
-	public static final Block RATCH_PUTTY = new RatchPutty(FabricBlockSettings.of(Material.STONE));
+	public static final Block ACRONITE_CAGE = new AcroniteCage(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block ALCHEMY_CHAMBER = new AlchemyChamber(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block AMETHYST_BLOCK = new AmethystBlock(FabricBlockSettings.of(Material.METAL)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.METAL));
+	public static final Block AMETHYST_ORE = new AmethystOre(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block AMETHYST_SUNPAD = new AmethystSunpad(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block BREAKER = new Breaker(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block ECKSPEI_LOCKER = new EckspeiLocker(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block GROWTH_AURA = new GrowthAura(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block RATCH_PUTTY = new RatchPutty(
+			FabricBlockSettings.of(Material.ORGANIC_PRODUCT).breakByHand(true).sounds(BlockSoundGroup.SLIME));
 	public static final Block TEMPEST_CRAFTER = new TempestCrafter(FabricBlockSettings.of(Material.METAL)
-			.breakByTool(FabricToolTags.PICKAXES, 3).requiresTool().strength(5.0f, 30.0f).sounds(BlockSoundGroup.METAL));
-	public static final Block TEMPITE_INSULATOR = new TempiteInsulator(FabricBlockSettings.of(Material.STONE));
-	public static final Block TEMPITE_STONE = new TempiteStone(FabricBlockSettings.of(Material.STONE));
-	public static final Block TEMPITE_WIRE = new TempiteWire(FabricBlockSettings.of(Material.STONE));
-	public static final Block VULCAANIUM_BLOCK = new VulcaaniumBlock(FabricBlockSettings.of(Material.STONE));
-	public static final Block VULCAANIUM_ORE = new VulcaaniumOre(FabricBlockSettings.of(Material.STONE));
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.METAL));
+	public static final Block TEMPITE_INSULATOR = new TempiteInsulator(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block TEMPITE_STONE = new TempiteStone(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
+	public static final Block TEMPITE_WIRE = new TempiteWire(FabricBlockSettings.of(Material.GLASS)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.GLASS));
+	public static final Block VULCAANIUM_BLOCK = new VulcaaniumBlock(FabricBlockSettings.of(Material.METAL)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.METAL));
+	public static final Block VULCAANIUM_ORE = new VulcaaniumOre(FabricBlockSettings.of(Material.STONE)
+			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
 
 	public static void registerBlocks() {
 		Registry.register(Registry.BLOCK, new Identifier(TTB.MOD_ID, "acronite_cage"), ACRONITE_CAGE);
