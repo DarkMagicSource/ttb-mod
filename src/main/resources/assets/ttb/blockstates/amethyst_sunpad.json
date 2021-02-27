@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"powered=false": {
+			"model": "ttb:block/amethyst_sunpad"
+		},
+		"powered=true": {
+			"model": "ttb:block/amethyst_sunpad_powered"
+		}
+	}
+}
