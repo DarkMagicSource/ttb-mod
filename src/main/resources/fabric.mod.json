@@ -8,7 +8,8 @@
 	"authors": ["DarkMagicSauce"],
 	"contact": {
 		"homepage": "http://thetempestsbox.com/",
-		"sources": "https://github.com/DarkMagicSauce/ttb-mod"
+		"issues": "https://github.com/DarkMagicSource/ttb-mod/issues",
+		"sources": "https://github.com/DarkMagicSource/ttb-mod"
 	},
 
 	"license": "GPL-3.0",
