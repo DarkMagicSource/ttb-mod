@@ -17,7 +17,8 @@
 
 	"environment": "*",
 	"entrypoints": {
-		"main": ["com.darkmagicsauce.ttb.TTB"]
+		"main": ["com.darkmagicsauce.ttb.TTB"],
+		"client": ["com.darkmagicsauce.ttb.TTBClient"]
 	},
 
 	"depends": {
