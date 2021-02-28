@@ -35,8 +35,9 @@ public class RegisterBlocks {
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
 	public static final Block TEMPITE_STONE = new TempiteStone(FabricBlockSettings.of(Material.STONE)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
-	public static final Block TEMPITE_WIRE = new TempiteWire(FabricBlockSettings.of(Material.GLASS)
-			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.GLASS));
+	public static final Block TEMPITE_WIRE = new TempiteWire(
+			FabricBlockSettings.of(Material.GLASS).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()
+					.strength(2.5f, 30.0f).sounds(BlockSoundGroup.GLASS).nonOpaque());
 	public static final Block VULCAANIUM_BLOCK = new VulcaaniumBlock(FabricBlockSettings.of(Material.METAL)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.METAL));
 	public static final Block VULCAANIUM_ORE = new VulcaaniumOre(FabricBlockSettings.of(Material.STONE)
