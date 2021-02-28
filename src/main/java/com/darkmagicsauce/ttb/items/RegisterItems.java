@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class RegisterItems {
+	// Block Items
 	public static final Item ACRONITE_CAGE = new BlockItem(RegisterBlocks.ACRONITE_CAGE,
 			new Item.Settings().group(TTB.ITEM_GROUP));
 	public static final Item ALCHEMY_CHAMBER = new BlockItem(RegisterBlocks.ALCHEMY_CHAMBER,
@@ -39,7 +40,18 @@ public class RegisterItems {
 	public static final Item VULCAANIUM_ORE = new BlockItem(RegisterBlocks.VULCAANIUM_ORE,
 			new Item.Settings().group(TTB.ITEM_GROUP));
 
+	// Items
+	public static final Item AMETHYST_CRYSTAL = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item AMETHYST = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item MYSTERIOUS_CRYSTAL = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item MYSTERIOUS_DUST = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item TEMPITE_GEL = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item TEMITE_SLUDGE = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item VULCAANIUM_CRYSTAL = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+	public static final Item VULCAANIUM = new Item(new Item.Settings().group(TTB.ITEM_GROUP));
+
 	public static void registerItems() {
+		// Block Items
 		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "acronite_cage"), ACRONITE_CAGE);
 		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "alchemy_chamber"), ALCHEMY_CHAMBER);
 		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "amethyst_block"), AMETHYST_BLOCK);
@@ -55,5 +67,15 @@ public class RegisterItems {
 		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "tempite_wire"), TEMPITE_WIRE);
 		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "vulcaanium_block"), VULCAANIUM_BLOCK);
 		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "vulcaanium_ore"), VULCAANIUM_ORE);
+
+		// Items
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "amethyst_crystal"), AMETHYST_CRYSTAL);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "amethyst"), AMETHYST);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "mysterious_crystal"), MYSTERIOUS_CRYSTAL);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "mysterious_dust"), MYSTERIOUS_DUST);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "tempite_gel"), TEMPITE_GEL);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "tempite_sludge"), TEMITE_SLUDGE);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "vulcaanium_crystal"), VULCAANIUM_CRYSTAL);
+		Registry.register(Registry.ITEM, new Identifier(TTB.MOD_ID, "vulcaanium"), VULCAANIUM);
 	}
 }
