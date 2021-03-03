@@ -1,7 +1,12 @@
 # The Tempest's Box
+
+[![build](https://github.com/DarkMagicSource/ttb-mod/actions/workflows/build.yml/badge.svg)](https://github.com/DarkMagicSource/ttb-mod/actions/workflows/build.yml)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
+
 The Tempest's Box is a Minecraft command project spanning [4 years](https://youtube.com/watch?v=BSuQ29kRXKU), created by [Jragon014](https://youtube.com/channel/UC_LBXGLs8Sa0opJHFVDVBqA), that adds countless features that add to the game under the themes of magic and exploration. The project was revived by myself after 2 years of inactivity, and later taken over by Andante.
 
-The *TTB Mod* project was created as a learning experience for myself of how to program in *Java* and use [*FabricMC*](https://fabricmc.net) to create a mod.
+The *TTB Mod* project was created as a learning experience for myself of how to program in *Java* and use [*FabricMC*](https://fabricmc.net) to create a mod. This project does not aim to compete with the main TTB project, but rather be an alternative for those who may prefer a modded experience.
 
 
 ## Setup
