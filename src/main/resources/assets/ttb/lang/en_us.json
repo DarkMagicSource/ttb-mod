@@ -1,5 +1,6 @@
 {
 	"itemGroup.ttb.general": "The Tempest's Box",
+
 	"block.ttb.acronite_cage": "Acronite Cage",
 	"block.ttb.alchemy_chamber": "Alchemy Chamber",
 	"block.ttb.amethyst_block": "Amethyst Block",
@@ -14,5 +15,14 @@
 	"block.ttb.tempite_stone": "Tempite Stone",
 	"block.ttb.tempite_wire": "Tempite Wire",
 	"block.ttb.vulcaanium_block": "Vulcaanium Block",
-	"block.ttb.vulcaanium_ore": "Vulcaanium Ore"
+	"block.ttb.vulcaanium_ore": "Vulcaanium Ore",
+
+	"item.ttb.amethyst_crystal": "Amethyst Crystal",
+	"item.ttb.amethyst": "Amethyst",
+	"item.ttb.mysterious_crystal": "Mysterious Crystal",
+	"item.ttb.mysterious_dust": "Mysterious Dust",
+	"item.ttb.tempite_gel": "Tempite Gel",
+	"item.ttb.tempite_sludge": "Tempite Sludge",
+	"item.ttb.vulcaanium_crystal": "Vulcaanium Crystal",
+	"item.ttb.vulcaanium": "Vulcaanium"
 }
