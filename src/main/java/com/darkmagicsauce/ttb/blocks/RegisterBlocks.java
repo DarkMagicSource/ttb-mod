@@ -15,9 +15,9 @@ public class RegisterBlocks {
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
 	public static final Block ALCHEMY_CHAMBER = new AlchemyChamber(FabricBlockSettings.of(Material.STONE)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
-	public static final Block AMETHYST_BLOCK = new AmethystBlock(FabricBlockSettings.of(Material.METAL)
+	public static final Block AMETHYST_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.METAL));
-	public static final Block AMETHYST_ORE = new AmethystOre(FabricBlockSettings.of(Material.STONE)
+	public static final Block AMETHYST_ORE = new Block(FabricBlockSettings.of(Material.STONE)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
 	public static final Block AMETHYST_SUNPAD = new AmethystSunpad(FabricBlockSettings.of(Material.STONE)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
@@ -38,9 +38,9 @@ public class RegisterBlocks {
 	public static final Block TEMPITE_WIRE = new TempiteWire(
 			FabricBlockSettings.of(Material.GLASS).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()
 					.strength(2.5f, 30.0f).sounds(BlockSoundGroup.GLASS).nonOpaque());
-	public static final Block VULCAANIUM_BLOCK = new VulcaaniumBlock(FabricBlockSettings.of(Material.METAL)
+	public static final Block VULCAANIUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.METAL));
-	public static final Block VULCAANIUM_ORE = new VulcaaniumOre(FabricBlockSettings.of(Material.STONE)
+	public static final Block VULCAANIUM_ORE = new Block(FabricBlockSettings.of(Material.STONE)
 			.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(2.5f, 30.0f).sounds(BlockSoundGroup.STONE));
 
 	public static void registerBlocks() {
